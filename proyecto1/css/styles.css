@@ -1,0 +1,38 @@
+
+.container{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    background-image: url(../images/08imagen.jpg);
+    /* background-repeat: no-repeat; */
+    color:white;
+}
+.title{
+    text-align: center;
+}
+.list{
+    list-style: none;
+    margin-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content:space-evenly;
+}
+.list__item{
+    background-color: gray;
+    border-radius: 20px;
+}
+.image{
+    width: 300px;
+    height: 180px;
+    padding: 0;
+    border-radius: 20px;
+    border: 2px solid #B8C6DB;
+}
+.subtitle{
+    text-align: center;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+
